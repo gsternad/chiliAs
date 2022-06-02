@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Chili AS</title>
+          <meta charset="UTF-8"/>
+          <link rel="stylesheet" href="../css/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+          <link rel="icon" href="../pictures/logoTransparent.ico" type="image/x-icon">
+          <script src="../js/script.js"></script>
+          <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+     </head>
+     <body id="contactPage">
+          <div class="navBar">
+               <div id="menuOptions">
+                    <a href="index.html" id="logo"><img id="logoNav" src="../pictures/logoTransparentNav.png"></a>
+                    <a href="index.html">DOMOV</a>            
+                    <a href="bio.html">O NAS</a>
+                    <div class="dropdown">
+                         <button class="dropBtn"><a href="products.html">PONUDBA</a></button>
+                         <div class="dropdownContent">
+                              <a href="products/seeds.html">Semena</a>
+                              <a href="products/seedlings.html">Sadike</a>
+                              <a href="products/chilis.html">Čiliji</a>
+                              <a href="products/sauces.html">Omake</a>
+                         </div>
+                    </div>   
+                    <a href="contact.html">KONTAKT</a>  
+               </div>
+               <div id="socialMedia">
+                    <a id="english">EN</a>
+                    <a id="german">DE</a>
+                    <a href="https://www.youtube.com" id="youtube"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://www.facebook.com" id="facebook"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/chili_as_slo/" id="instagram"><i class="fa fa-instagram"></i></a>
+               </div>
+          </div>
+          <div class="innerDiv backgroundImage">
+               <div class="content" id="contactForm">
+                    <div class="contactHeader">
+                         <div id="contactTitle">
+                              <h1>PIŠI NAM</h1>
+                         </div>
+                         <div id="contactImage">
+                              <img src="/src/pictures/logoTransparentNav.png">
+                         </div>
+                    </div>
+                    <form action="#" method="post">
+                         <div class="mainContact">
+                              <div class="contactBox">
+                                   <div id="titleBox">
+                                        <select placeholder="NAZIV" id="titleInput">
+                                             <option>Gospod</option>
+                                             <option>Gospa</option>
+                                             <option>Dr.</option>
+                                        </select>
+                                   </div>
+                                   <div id="fullName">
+                                        <div class="contactText" id="name">
+                                             <input class="contactInput" type="text" placeholder="IME" required>
+                                        </div>
+                                        <div class="contactText" id="surname">
+                                             <input class="contactInput" type="text" placeholder="PRIIMEK" required>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="contactBox">
+                                   <div class="contactText" id="phoneNumber">
+                                        <input class="contactInput" type="text" placeholder="TELEFON" required>
+                                   </div>
+                                   <div class="contactText" id="mail">     
+                                        <input class="contactInput" type="email" placeholder="E-MAIL"required>
+                                   </div>
+                              </div>
+                              <div class="contactBox" id="subjectBox">
+                                   <select placeholder="ZANIMA ME" name="subject" id="subjectInput">
+                                        <option disabled hidden selected name="subjectSelect">ZANIMA ME</option>
+                                        <option>NAKUP</option>
+                                        <option>PRODAJA</option>
+                                   </select>
+                                   <div class="border"></div>
+                              </div>
+                              <div class="contactBox" id="messageBox">
+                                   <div class="contactText">
+                                        <textarea id="message" placeholder="SPOROČILO"></textarea>
+                                   </div>
+                              </div>
+                              <div class="contactBox" id="submitBtn">
+                                   <label class="submitLabel" for="submit" id="submitBox">
+                                        <div id="send">
+                                             <p>POŠLJI&nbsp;&nbsp;<i class="fa fa-paper-plane"></i></p>
+                                        </div>
+                                   </label>
+                                   <input name="submit" type="submit" id="submit">
+                              </div>
+                         </div>
+                    </form>
+               </div>
+               <div class="content" id="contactSidebar">
+                    <div class="sidebarContainer">
+                         <div id="contact">
+                              <p><b>Kontakt:</b></p>
+                              <p><i class="fa fa-user">&nbsp;</i>Anžej Sternad</p>
+                              <p><i class="fa fa-phone">&nbsp;</i>+386 40 440 274</p>
+                              <p><i class="fa fa-envelope">&nbsp;</i>info@chili-as.si</p>
+                          </div>
+                         <div id="location">
+                              <div id="locationText">
+                                   <p><i class="fa fa-map-marker">&nbsp;</i>Lovska ulica 7,</p>
+                                   <p>2352 Selnica ob Dravi</p>
+                              </div>
+                              <div id="locationImg">
+                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.6015990231276!2d15.486367816224059!3d46.55556736797728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476f9ca9c2de6b9d%3A0xb31dd0ee35eac2b0!2sLovska%20ulica%207%2C%202352%20Selnica%20ob%20Dravi!5e0!3m2!1ssl!2ssi!4v1651919288035!5m2!1ssl!2ssi" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div>
+                              
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="footer">
+               <div class="copyright">
+                    <a href="index.html"><i class="fa fa-copyright"> 2022 Chili AS</i></a>
+               </div>
+               <div class="footerLinks">
+               </div>
+          </div>
+     </body>
+</html>
